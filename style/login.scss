@@ -1,0 +1,121 @@
+@function num($n){
+	@return $n/20;
+}
+*{
+	padding:0;
+	margin:0;
+}
+html,body{
+	height:100%;
+}
+.header{
+	width:100%;
+	height:num(40rem);
+	border-bottom:num(1rem) solid #c9c7c8;
+	box-sizing:border-box;
+	background:#fafafa;
+	position:relative;
+	img{
+		width:num(14rem);
+		height:num(14rem);
+		float:left;
+		margin-left:num(16rem);
+		margin-top:num(14rem);
+	}
+	.span1{
+	    display:block;
+	    font-size:num(14rem);
+	    color:#5e5e5e;
+	    font-weight:bold;
+	    text-align:center;
+	    line-height:num(40rem);
+	    padding-right:num(35rem); 
+	}
+	.span2{
+	    display:block;
+        float:right;
+        position:absolute;
+        right:0;
+        top:num(10rem);
+        font-size:num(15rem);
+	}
+}
+.center{
+	width:100%;
+	height:num(98rem);
+	margin-top:42px;
+    p{  
+        font-size:num(17rem);
+        color:#666;
+        text-align:center;
+        line-height:num(56rem);
+    } 
+    input{
+	     width:90%;
+		 font-size:num(20rem);
+		 border:none;
+		 outline:none;
+		 text-align:center;
+		 color:#333;
+		 margin-left:num(12rem);
+		 border-bottom:num(1rem) solid #ededed;
+    	 }
+}
+.center1{
+	@extend .center;
+	margin-top:num(5rem);
+}
+.denglu{
+	width:90%;
+	height:num(42rem);
+	background:#ff1877;
+	font-size:num(13rem);
+	text-align:center;
+	line-height:num(42rem);
+	color:#fff;
+	margin:0 auto;
+	border-radius:5px;
+}
+.mmzc{
+	width:90%;
+	height:num(15rem);
+	margin:num(16rem) auto;
+	a:nth-child(1){
+	   float:left;
+	   font-size:num(12rem);
+	   text-decoration:none;
+	   color:#999;
+	}
+	a:nth-child(2){
+	   float:right;
+	   text-decoration:none;
+	   color:#ff5777;
+	   font-size:num(12rem);
+	}
+}
+.or{   
+    width:100%;
+    margin-top:num(23rem);
+	.xian{
+	    display:block;
+	    width:num(132rem);
+        border-bottom:num(1rem) solid #f1f1f1;
+        display:inline-block;
+        margin-left:num(16rem);
+	}
+	.or1{
+	    color:#f1f1f1;
+	    font-size:num(10rem);
+	}
+	.xian1{
+        @extend .xian;
+	}
+}
+.end{
+	width:num(91rem);
+	height:num(89rem);
+	margin:num(10rem) auto;
+	img{
+	   @extend .end;
+	}
+}

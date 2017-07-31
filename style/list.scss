@@ -1,0 +1,241 @@
+@function num($n){
+	@return $n/20;
+}
+*{
+	padding:0;
+	margin:0;
+}
+html,body{
+	height:100%;
+	background:#f6f6f6;
+}
+.header{
+    width:100%;
+    background:white;
+    .tut{
+        width:num(130rem);
+        position:relative;
+        margin:0 auto;
+        img{
+        width:100%;
+        }
+	    .zxrm{
+	    display:block;
+		font-size:num(12rem);
+		position:absolute;
+        top:num(8rem);
+        left:num(42rem);
+		}
+	}
+	.tut1{
+	  clear:both;
+	  width:90%;
+	  margin:0 auto;
+	  margin-top:num(20rem);
+	  .xtt{
+	     width:20%;
+	     display:inline-block;
+	     margin-right:num(9rem);
+	     margin-bottom:num(10rem);
+	     .xtt1{
+	       width:100%;
+	       position:relative;
+	       img{
+	       width:100%;
+           border-radius:50%;
+           }
+           .NEW{
+             width:num(30rem);
+             height:num(15rem);
+             position:absolute;
+             right:0;
+             top:0;
+             background:#f287ac;
+             text-align:center;
+             line-height:num(15rem);
+             border-radius:num(10rem);
+             font-size:num(6rem);
+             color:white;
+           }
+	     }
+	     span{
+	       width:100%;
+	       display:block;
+           font-size:num(14rem);
+           color:#333;
+           text-align:center;
+	     }
+	  }
+
+	}
+}
+.zj{
+   @extend .header;
+   margin-top:num(10rem);
+}
+.xjxk{
+	@extend .header;
+	background:none;
+	margin-top:num(38rem);
+	margin-bottom:num(38rem);
+}
+.catiao{
+	width:100%;
+	height:num(31rem);
+	background:#ff0077;
+		.jx{
+		width:20%;
+		color:white;
+		font-size:num(13rem);
+		height:num(31rem);
+		text-align:center;
+		line-height:num(31rem);
+		float:left;
+		}
+	    .xkb{
+		@extend .jx;
+		}
+		.sjb{
+		@extend .jx;
+		}
+		.stb{
+		@extend .jx;
+		}
+		.djb{
+		@extend .jx;
+		}	
+}
+.xianna{
+	width:100%;
+	height:num(1rem);
+	border-bottom:num(2rem) solid #ccc;
+	margin-top:num(10rem);
+	margin-bottom:0;
+	}
+.cbd{  
+       width:100%;
+    .xiamian{
+		width:100%;
+			 .zjk{
+	            width:90%;
+	         	margin:num(20rem) auto;
+	         	overflow:hidden;
+		         	.qba{
+					width:50%;
+					height:100%;
+					float:left;
+					background:white;
+					margin-right:num(15rem);
+						.xiamian1{
+						width:100%;
+						height:100%;
+						.tiy{
+						width:100%;
+						height:100%;
+						}
+					}
+					.xiamian2{
+						position:relative;
+					    width:100%;
+					    height:100%;
+					  .xin{
+					    width:90%;
+					    margin:0 auto;
+					  .xin1{
+					     width:100%;
+					    .xinkuana{
+			            font-size:num(11rem);
+			            color:#5e5e5e;
+			            background:#eff3f6;
+					    }
+					    .xinkuana11{
+					   @extend .xinkuana;
+					}
+					    }
+					.xinkuana1{
+						font-size:num(13rem);
+			            color:#5e5e5e;
+			            font-weight:bold;
+					   }
+					.xinkuana2{
+						position:absolute;
+						right:num(5rem);
+						bottom:num(4rem);
+						width:num(12rem);
+						height:num(12rem);
+					}
+					.xinkuana3{
+						font-size:num(11rem);
+			            color:#5e5e5e;
+			            position:absolute;
+						right:num(20rem);
+						bottom:num(2rem);
+					    }
+		            }
+		
+	        }
+    }
+
+			.qba1{
+					width:50%;
+					height:100%;
+					float:left;
+					background:white;
+					margin-right:num(-15rem);
+					.xiamian1{
+						width:100%;
+						height:100%;
+						.tiy{
+						width:100%;
+						height:100%;
+						}
+					}
+					.xiamian2{
+						position:relative;
+					    width:100%;
+					    height:100%;
+					  .xin{
+					    width:90%;
+					    margin:0 auto;
+					  .xin1{
+					     width:100%;
+					    .xinkuana{
+			            font-size:num(11rem);
+			            color:#5e5e5e;
+			            background:#eff3f6;
+					    }
+					     .xinkuana112{
+			            font-size:num(11rem);
+			            color:white;
+			            background:#ff743c;
+					    }
+					    .xinkuana11{
+					   @extend .xinkuana;
+					}
+					    }
+					.xinkuana1{
+						font-size:num(13rem);
+			            color:#5e5e5e;
+			            font-weight:bold;
+					   }
+					.xinkuana2{
+						position:absolute;
+						right:num(20rem);
+						bottom:num(4rem);
+						width:num(12rem);
+						height:num(12rem);
+					}
+					.xinkuana3{
+						font-size:num(11rem);
+			            color:#5e5e5e;
+			            position:absolute;
+						right:num(35rem);
+						bottom:num(2rem);
+					    }
+		            }
+		
+	        }
+    }
+	}
+	}
+	}
