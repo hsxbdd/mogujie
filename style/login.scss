@@ -59,7 +59,11 @@ html,body{
 		 color:#333;
 		 margin-left:num(12rem);
 		 border-bottom:num(1rem) solid #ededed;
+
     	 }
+    input::-webkit-input-placeholder{
+		   color:#ededed;
+		 }	 
 }
 .center1{
 	@extend .center;
